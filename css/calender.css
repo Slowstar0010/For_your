@@ -1,0 +1,72 @@
+.calendar{
+    margin-top: 1rem;
+    width: 55rem;
+    height: 38rem;
+    border: 0.3rem solid rgba(0,0,0,0.4);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border-radius: 1rem;
+}
+
+.calendar_btn{
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: rgba(0,0,0,0);
+    border: 0px solid rgba(0,0,0,0);
+}
+
+.calendar_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.calendar_year_month{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: azure;
+}
+
+.calendar_days{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(7, 1fr);
+    font-weight: bold;
+    border-bottom: 0.2rem solid rgba(0,0,0,0.4);
+    padding-bottom: 0.4rem;
+    color: azure;
+}
+
+.sun{
+    color: red;
+}
+
+.sat{
+    color: blue;
+}
+
+.day{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.calendar_dates{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1rem;
+}
+
+.date {
+    cursor: pointer;
+    padding: 1.5rem;
+    border-bottom: 0.2rem solid rgba(0,0,0,0.4);
+    color: azure;
+    vertical-align: top;
+    text-align: left;
+}
+ 
+.today {
+    background-color: rgba(0,0,0,0.4);
+}

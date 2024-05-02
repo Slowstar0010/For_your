@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>For Your</title>
-    <link rel="shortcut icon" href="imgs/favcon/Web/icons8-울퉁불퉁-한-공간의-공주-ios-17-filled-120.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imgs/favcon/1184934890630807573.webp" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,7 +12,33 @@
         <img class="page__bg" src="imgs/login_page_imgs/login_bg.gif">
     </div>    
     <div class="bg_main">        
-        <span class="clock">00:00</span>
+        <span class="clock draggable" id="drag_clock">00:00</span>
+        
+        <section class="calendar draggable" id="drag_calendar">
+            <div class="calendar_header">
+
+                <button  type="button" class="calendar_btn prevbtn">
+                    <img src="imgs/left.svg">
+                </button>
+
+                <div class="calendar_year_month"></div>
+
+                <button type="button" class="calendar_btn nextbtn">
+                    <img src="imgs/right.svg">
+                </button>
+            </div>
+            <div class="calendar_days">
+                <div class="day sun">SUN</div>
+                <div class="day">MON</div>
+                <div class="day">TUE</div>
+                <div class="day">WED</div>
+                <div class="day">THU</div>
+                <div class="day">FRI</div>
+                <div class="day sat">SAT</div>
+            </div>
+            <div class="calendar_dates"></div>
+        </section>
+
     </div>
     
     <div class="login_page">
@@ -42,5 +68,8 @@
     </footer>
     <script src="js/login.js"></script>
     <script src="js/clock.js"></script>
+    <script src="js/drag_clock.js"></script>
+    <script src="js/drag_calendar.js"></script>
+    <script src="js/calendar.js"></script>
 </body>
 </html> 

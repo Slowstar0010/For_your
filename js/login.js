@@ -18,6 +18,7 @@ function onLoginSubmit(event){ // loginform submit 이벤트 발생시 작동하
     localStorage.setItem (USERNAME_KEY, userName) // submit시 input value를 local_storage에 저장 
     loginform.classList.add(HIDDEN_CLASSNAME) // 필요없어진 loginform에 hidden class를 추가해 숨김 
     login_page__header.classList.add(HIDDEN_CLASSNAME) // 필요없어진 login_page_header에 hidden class를 추가해 숨김
+    welcome_to_the_show(userName)
 }
 
 function welcome_to_the_show(userName){
@@ -27,7 +28,7 @@ function welcome_to_the_show(userName){
     login_page.classList.add("fade_out")
     setTimeout(function(){
         add_hidden()
-    }, 2000);
+    }, 2800);
 }
 
 function add_hidden(){

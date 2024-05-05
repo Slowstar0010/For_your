@@ -41,5 +41,4 @@ body{
   cursor: move;
   position: absolute;
   user-select: none;
-  display: flexbox;
 }

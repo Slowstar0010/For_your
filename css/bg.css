@@ -1,9 +1,11 @@
 .bg{
     position: relative;
+    pointer-events: none;
 }
 
 .page__bg{
     position: absolute;
+    pointer-events: none;
 }
 
 .bg_main{

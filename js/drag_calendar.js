@@ -31,7 +31,6 @@ const calendarMouseMoveHandler = function (e) {
 const calendarMouseUpHandler = function () {
     document.removeEventListener('mousemove', calendarMouseMoveHandler);
     document.removeEventListener('mouseup', calendarMouseUpHandler);
-    //dy_calendar = 0; // 이동이 끝나면 dy 값을 초기화
 };
 
 calendar_ele.addEventListener('mousedown', calendarMouseDownHandler);

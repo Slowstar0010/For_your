@@ -1,0 +1,8 @@
+.dock{
+    width: 70rem;
+    height: 8rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    bottom: 0%;
+    left: 20%;
+    border-radius: 1rem;
+}

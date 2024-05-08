@@ -9,6 +9,10 @@
 
 @import url(calender.css);
 
+@import url(to_do.css);
+
+@import url(dock.css);
+
 body{
     width: 100%;
     height: 100%;

@@ -1,0 +1,54 @@
+.To_do_header{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.To_do_text{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: azure;
+
+}
+
+.to_do_box{
+    overflow: scroll;
+    width: 50rem;
+    height: 38rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    border: 0.3rem rgba(0, 0, 0, 0.4) solid;
+    left: 2%;
+    top: 2%;
+}
+
+
+.login_form_input{
+    width: 45rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    color:azure;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border: none;
+}
+
+li{
+    font-weight: bolder;
+    margin-top: 1.4rem;
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    border-bottom:rgba(0, 0, 0, 0.4) solid;
+    color: azure;
+    width: 92%;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}

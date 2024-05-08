@@ -5,6 +5,9 @@
     border: 0.3rem solid rgba(0,0,0,0.4);
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     border-radius: 1rem;
+    background-color: rgba(0,0,0,0.4);
+    left: 52%;
+    overflow: hidden;
 }
 
 .calendar_btn{
@@ -66,7 +69,13 @@
     vertical-align: top;
     text-align: left;
 }
- 
+
+.date:hover {
+    transform: scale(1.1);
+}
+
 .today {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(255,255,255,0.4);
+    color: black;
+    font-weight: bolder;
 }

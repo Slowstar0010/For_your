@@ -1,8 +1,23 @@
 .dock{
     width: 70rem;
-    height: 8rem;
+    height: 6rem;
     background-color: rgba(0, 0, 0, 0.4);
-    bottom: 0%;
+    bottom: 1%;
     left: 20%;
     border-radius: 1rem;
+}
+
+.dock_img_a{
+    display: flex;
+    justify-content: center;
+}
+
+.dock_icons{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 1rem;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1rem;
+    margin-top: 0.4rem;
+    cursor: pointer;
 }

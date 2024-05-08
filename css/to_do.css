@@ -10,7 +10,7 @@
     font-size: 2rem;
     font-weight: bolder;
     color: azure;
-
+    cursor: pointer;
 }
 
 .to_do_box{
@@ -42,6 +42,7 @@ li{
     border-bottom:rgba(0, 0, 0, 0.4) solid;
     color: azure;
     width: 92%;
+    cursor: pointer;
 }
 
 button{

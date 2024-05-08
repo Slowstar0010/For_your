@@ -1,17 +1,13 @@
 @import url(body/reset.css);
 
-/*login page*/
 @import url(login.css);
-
 @import url(bg.css);
-
 @import url(clock.css);
-
 @import url(calender.css);
-
 @import url(to_do.css);
-
 @import url(dock.css);
+@import url(quote.css);
+
 
 body{
     width: 100%;

@@ -1,0 +1,21 @@
+.quote_box{
+    background-color: rgba(0,0,0,0.4);
+    width: 70rem;
+    height: 5rem;
+    left: 20%;
+    bottom: 15%;
+    border-radius: 1rem;
+}
+
+#quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote_font{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
